@@ -22,6 +22,31 @@
 
     <hr>
 
+    <!-- SOCIAL + LOCATION SECTION -->
+    <h3>Find Us</h3>
+
+    <p><strong>Address:</strong><br>
+       123 Yogurt Street, San Fernando, Pampanga, Philippines
+    </p>
+
+    <p><strong>Phone:</strong><br>
+       0912-345-6789
+    </p>
+
+    <p><strong>Email:</strong><br>
+       support@yogurtshop.com
+    </p>
+
+    <h3>Follow Us</h3>
+
+    <ul>
+        <li><strong>Facebook:</strong> <a href="#">facebook.com/YogurtShop</a></li>
+        <li><strong>Instagram:</strong> <a href="#">instagram.com/YogurtShop</a></li>
+        <li><strong>TikTok:</strong> <a href="#">tiktok.com/@YogurtShop</a></li>
+    </ul>
+
+    <hr>
+
     <?php
     if (isset($_POST['submit'])) { 
         $name = htmlspecialchars($_POST['name']);
