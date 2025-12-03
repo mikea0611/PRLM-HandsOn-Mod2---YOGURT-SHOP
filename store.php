@@ -11,7 +11,7 @@ include 'header.php';
         <label for="flavor">Choose a flavor:</label>
         <select name="flavor" id="flavor">
             <?php
-            $flavors = ["Vanilla", "Chocolate", "Strawberry", "Mango"];
+            $flavors = ["Vanilla", "Chocolate", "Strawberry", "Mango", "Blueberry"];
 
             foreach ($flavors as $flavor) {
                 echo "<option value='$flavor'>$flavor</option>";
@@ -103,6 +103,10 @@ include 'header.php';
             echo "<p>Fresh and fruity! Strawberry yogurt is always a great pick!</p>";
         } elseif ($flavor == "Mango") {
             echo "<p>Refreshing and tropical! Mango yogurt is perfect for hot days.</p>";
+        } elseif ($flavor == "Blueberry") {
+            echo "<p>Sweet and tangy! Blueberry yogurt gives a refreshing burst of flavor.</p>";
+        } elseif ($flavor == "Matcha") {
+            echo "<p>Earthy and calming! Matcha yogurt is perfect if you want something unique and relaxing.</p>";
         }
 
         // Cup size message
@@ -143,3 +147,4 @@ include 'header.php';
 </div>
 
 <?php include 'footer.php'; ?>
+
